@@ -54,10 +54,16 @@ func main() {
 	// 注意在go里面变量如果在声明的时候没有给值都是会有默认的返回值的
 	var(
 		string_s string
-		int_i int
+		int_i int·
 		bool_b bool
 	)
 	fmt.Println("string_s  = ",string_s)
 	fmt.Println("int_i  = ",int_i)
 	fmt.Println("bool_b  = ",bool_b)
+
+	// test
+	var ch byte = 'A'
+	var ch_cn rune = '中'
+	fmt.Printf("type of ch is %T\n",ch)
+	fmt.Printf("type of ch_cn is %T\n",ch_cn)
 }
